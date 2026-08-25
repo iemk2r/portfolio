@@ -1,0 +1,3 @@
+﻿  lapuh.cpp
+D:\с++\Нова папка\lapuh\lapuh\lapuh.cpp(59,12): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  lapuh.vcxproj -> D:\с++\Нова папка\lapuh\x64\Debug\lapuh.exe

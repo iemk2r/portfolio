@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="lapuh/lapuh.vcxproj" Id="1816cfd1-7d43-44e0-a74e-98e3472723fd" />
+</Solution>
