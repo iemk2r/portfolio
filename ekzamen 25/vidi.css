@@ -1,0 +1,78 @@
+body {
+    background: url(img/1329100.png) center/cover no-repeat fixed;
+}
+
+main {
+    animation: main 1s ease-out forwards;
+}
+
+@keyframes main {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+h1 {
+    text-align: center;
+    color: #05aed0;
+    text-shadow: 1px 1px 1px rgba(0, 45, 88, 0.792);
+}
+
+.box {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+    padding: 40px;
+    background: linear-gradient(to right, rgba(46, 204, 113, 0.6), rgba(243, 156, 18, 0.6));
+    width: 94.77%;
+}
+
+.card {
+    width: 300px;
+    background: linear-gradient(145deg, #2b2b2b, #3d3d3d);
+    color: #fff;
+    border-radius: 18px;
+    padding: 25px;
+    text-align: center;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.4);
+    border: 3px solid transparent;
+}
+
+.card p {
+    font-size: 16px;
+    color: #ddd;
+}
+
+.java {
+    border-color: #2ecc71;
+    color: #2ecc71;
+}
+
+.bedrock {
+    border-color: #3498db;
+    color: #3498db;
+}
+
+.education {
+    border-color: #f39c12;
+    color: #f39c12;
+}
+
+.another-box {
+    margin: 40px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+}
+
+.cardd {
+    background: #00000095;
+    color: #fff;
+    padding: 20px 25px;
+    border: 3px solid rgb(252, 252, 252);
+}

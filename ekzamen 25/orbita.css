@@ -1,0 +1,130 @@
+body {
+    background: url(https://preview.redd.it/made-a-desktop-wallpaper-themed-around-the-minecraft-v0-9mgp3o3xhdwe1.png?width=1920&format=png&auto=webp&s=b96353771f3dd3fa3c2c0fb6b94ac7cba90859c2);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+main{
+    animation: main 1s ease-out forwards;
+}
+
+@keyframes main {
+    from{
+        opacity: 0;
+    }
+    to {
+    opacity: 1;
+    }
+}
+
+h1 {
+    font-size: 45px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-top: 10px;
+    color: rgb(0, 189, 47);
+    text-shadow: 2px 4px 5px rgb(0, 0, 0);
+}
+
+.zverhu {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(0, 213, 255);
+    text-shadow: 2px 4px 5px rgb(0, 0, 0);
+    position: relative;
+    text-align: center;
+    font-size: 22px;
+}
+
+.verstak {
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 580px;
+}
+
+.r {
+    animation: rotate 5s linear infinite;
+    display: flex;
+    align-items: center;
+    margin-top: 330px;
+    margin-left: 45%;
+    position: absolute;
+    z-index: -1;
+}
+
+.kirka {
+    animation: rotate 5s linear infinite 3.2s;
+}
+
+.almaz {
+    animation: rotate 5s linear infinite 1.6s;
+}
+
+.palka {
+    animation: rotate 5s linear infinite 0s;
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg) translateX(310px) rotate(0deg) scale(1);
+    }
+    20% {
+        transform: rotate(72deg) translateX(310px) rotate(-72deg) scale(0.8);
+    }
+    40% {
+        transform: rotate(144deg) translateX(310px) rotate(-144deg) scale(1.2);
+    }
+    60% {
+        transform: rotate(216deg) translateX(310px) rotate(-216deg) scale(0.6);
+    }
+    80% {
+        transform: rotate(288deg) translateX(310px) rotate(-288deg) scale(1.5);
+    }
+    100% {
+        transform: rotate(360deg) translateX(310px) rotate(-360deg) scale(1);
+    }
+}
+
+.dereva{
+    position: fixed;
+    z-index: -2;
+}
+
+.brevno-1{
+    margin-left: 850px;
+    margin-top: -56px;
+}
+
+.brevno-2{
+    margin-left: 850px;
+    margin-top: 8px;
+}
+
+.brevno-3{
+    margin-left: 775px;
+    margin-top: -145px;
+}
+
+.brevno-4{
+    margin-left: 775px;
+    margin-top: 7px;
+}
+
+.verstakk{
+    margin-left: 1012px;
+    margin-top: -100px;
+}
+
+.znizu {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 1000px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(0, 213, 255);
+    text-shadow: 2px 4px 5px rgb(0, 0, 0);
+    position: relative;
+    font-size: 22px;
+}

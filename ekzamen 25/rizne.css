@@ -1,0 +1,196 @@
+*{
+    margin:0;
+    padding:0;
+    font-family:Arial,sans-serif;
+}
+
+body{
+    background: linear-gradient(to bottom, rgb(0, 0, 0, 90%), rgb(255, 255, 255, 40%));
+    color:white;
+}
+
+.container{
+    max-width:1200px;
+    margin-left:150px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+h1{
+    text-align:center;
+    font-size:42px;
+    margin:20px;
+    color:#55ff55;
+}
+
+.cards{
+    display: flex;
+    gap: 20px;
+}
+
+.card{
+    border-radius:15px;
+    transition:0.3s;
+    box-shadow:0 10px 20px rgba(180, 9, 9, 0.4);
+    width: 24%;
+    background: #171717;
+    transition:.3s;
+}
+
+.card:hover{
+    transform:translateY(-10px);
+    transition:.3s;
+}
+
+.card img{
+    width:100%;
+    height:220px;
+}
+
+.card-content{
+    padding:20px;
+}
+
+.card h2{
+    color:#55ff55;
+    margin-bottom:15px;
+}
+
+.card p{
+    line-height:1.6;
+    color:#ddd;
+}
+
+.card2{
+    width:360px;
+    background:#222;
+    border-radius:15px;
+    text-align:center;
+    padding:20px;
+    transition:.3s;
+}
+
+.card2:hover{
+    transform:translateY(-10px);
+}
+
+.card2 img{
+    width:100%;
+    height:220px;
+    object-fit:cover;
+    border-radius:10px;
+}
+
+.card2 h2{
+    color:#2ecc71;
+    margin:15px 0 10px;
+}
+
+.card2 p{
+    color:#ddd;
+    line-height:1.5;
+}
+
+.a{
+    animation: a 1s ease-out forwards;
+}
+
+@keyframes a {
+    from{
+        opacity: 0;
+        transform: translateX(-10px);
+    }
+    to {
+    opacity: 1;
+    transform: translateX(10px);
+    }
+}
+
+.b{
+    animation: b 1s ease-out forwards;
+}
+@keyframes b {
+    from{
+        opacity: 0;
+        transform: translateX(-10px);
+    }
+    to {
+    opacity: 1;
+    transform: translateX(10px);
+    }
+}
+
+.c{
+    animation: c 1s ease-out forwards;
+}
+
+@keyframes c {
+    from{
+        opacity: 0;
+        transform: translateX(10px);
+    }
+    to {
+    opacity: 1;
+    transform: translateX(0px);
+    }
+}
+
+.d{
+    animation: d 1s ease-out forwards;
+}
+
+@keyframes d {
+    from{
+        opacity: 0;
+        transform: translateX(10px);
+    }
+    to {
+    opacity: 1;
+    transform: translateX(0px);
+    }
+}
+
+    .e{
+    animation: e 1s ease-out forwards;
+}
+
+@keyframes e {
+    from{
+        opacity: 0;
+        transform: translateX(-10px);
+    }
+    to {
+    opacity: 1;
+    transform: translateX(0px);
+    }
+}
+
+.f{
+    animation: f 1s ease-out forwards;
+}
+
+@keyframes f {
+    from{
+        opacity: 0;
+        transform: translateY(10px);
+    }
+    to {
+    opacity: 1;
+    transform: translateY(0px);
+    }
+}
+
+.j{
+    animation: j 1s ease-out forwards;
+}
+
+@keyframes j {
+    from{
+        opacity: 0;
+        transform: translateX(10px);
+    }
+    to {
+    opacity: 1;
+    transform: translateX(0px);
+    }
+}

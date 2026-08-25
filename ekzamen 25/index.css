@@ -1,0 +1,118 @@
+body{
+    background: url(img/images.jpg); 
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+} 
+
+main{
+    font-size: large;
+    font-family:Arial, Helvetica, sans-serif;
+    color: #71fde1;
+    text-shadow:1px 1px 1px rgba(0, 255, 200, 0.601);
+    letter-spacing: 2px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+p{
+    animation: text 1s ease-out forwards;
+}
+
+@keyframes text {
+    from{
+        opacity: 0;
+    }
+    to {
+    opacity: 1;
+    }
+}
+
+.grad-box{
+    position: relative;
+    width: 450px;
+    height: 300px;
+    background: linear-gradient(to right, #356113d8, #ff02d9ae);
+    border-radius: 10px;
+}
+
+.cherry{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    height: 250px;
+    animation: cherry 1s ease-out forwards;
+}
+
+@keyframes cherry {
+    from{
+        opacity: 0;
+        transform: translateX(-9px);
+    }
+    to {
+    opacity: 1;
+    transform: translateX(9);
+    }
+}
+
+.box-nezer{
+    position: absolute;
+    margin-left: 55%;
+    transform: translate(-64%, -100%);
+    width: 450px;
+    height: 300px;
+    background: linear-gradient(to right, #ff00008f, #ff6b02ae);
+    border-radius: 10px;
+}
+
+.nezer{
+    position: relative;
+    transform: translateY(9%);
+    width: 400px;
+    height: 250px;
+    animation: nezer 1s ease-out forwards;
+
+}
+
+@keyframes nezer {
+    from{
+        opacity: 0;
+        transform: translateY(100px);
+    }
+    to {
+    opacity: 1;
+    transform: translateY(9);
+    }
+}
+
+.box-end{
+    position: absolute;
+    margin-left: 55%;
+    transform: translate(52%, -100%);
+    width: 450px;
+    height: 300px;
+    background: linear-gradient(to right, #0d00ff91, #7c02ff95);
+    border-radius: 10px;
+}
+
+.end{
+    position: relative;
+    transform: translate(2%, 9%);
+    width: 400px;
+    height: 250px;
+    animation: end 1s ease-out forwards;
+}
+
+@keyframes end {
+    from{
+        opacity: 0;
+        transform: translateX(-9px);
+    }
+    to {
+    opacity: 1;
+    transform: translateX(9);
+    }
+}
